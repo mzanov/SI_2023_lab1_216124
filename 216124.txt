@@ -1,0 +1,51 @@
+$ mkdir SI_2023_lab1_216124 - се креира дадотека
+$ cd SI_2023_lab1_216124 - влегува во датотеката
+$ git init - инцилијазира со гит директориум
+$ git remote add origin https://github.com/mzanov/SI_2023_lab1_216124.git - поврзување лаколен со одалечен репозитуриум
+$ nano README.md - се креира датотека
+$ git add README.md - прикачување на датотеката на сцена
+$ git commit -m "Initial commit" - извршување комит , зачувување на промените во локалниот репозиториум
+$ nano SILab1.java - се креира датотека
+$ git add SILab1.java - прикачување на датотеката на сцена
+$ git commit -m "Add java class" - зачувување на промените во локалниот репозиториум
+$ git push origin master - ги прикачува локалните промени на одалечниот  репозиториум
+$ git branch bug1 - се креира гранка
+$ git branch bug2 - се креира гранка
+$ git branch bug3 - се креира гранка
+$ git checkout bug1 - се префрла на гранка bug1
+$ nano SILab1.java - се отвара содржина на дадотеката 
+$ git add SILab1.java - прикачување на промените на сцена
+$ git commit -m "Fix wrong loop for reading" - зачувување на промените во локалниот репозиториум
+$ git checkout bug2 - се префрла на гранка bug2
+$ nano SILab1.java - се отвара содржина на дадотеката 
+$ git add SILab1.java - прикачување на промените на сцена
+$ git commit -m "Fix wrong condition in filterOddNumbers" - зачувување на промените во локалниот репозиториум
+$ git checkout bug3 - се префрла на гранка bug3
+$ nano SILab1.java - се отвара содржина на дадотеката
+$ git add SILab1.java - прикачување на промените на сцена
+$ git commit -m "Fix method sumEvenNumbers" - зачувување на промените во локалниот репозиториум
+$ git push origin bug1 - ги прикачува локалните промени на одалечниот  репозиториум
+$ git push origin bug2 - ги прикачува локалните промени на одалечниот  репозиториум
+$ git push origin bug3 - ги прикачува локалните промени на одалечниот  репозиториум
+$ git checkout master - се префрла на гранката мастер
+$ git merge bug1 - Спојување со стратегијата Fast Forward
+$ git push origin master - ги прикачуваме сите промени кои ги имаме направено
+$ git push origin bug1 -  ги прикачуваме сите промени кои ги имаме направено
+$ git push origin bug2 -  ги прикачуваме сите промени кои ги имаме направено
+$ git push origin bug3 -  ги прикачуваме сите промени кои ги имаме направено
+$ git merge bug2 - спојување со стратегијата "ort"
+$ git push origin master - ги прикачуваме сите промени кои ги имаме направено
+$ git push origin bug1 - ги прикачуваме сите промени кои ги имаме направено
+$ git push origin bug2 - ги прикачуваме сите промени кои ги имаме направено
+$ git push origin bug3 - ги прикачуваме сите промени кои ги имаме направено
+$ git checkout bug3 - се префрла на гранката bug3
+$ git rebase master - се прави rebase на bug3 спрема гранката мастер
+$ git checkout master - се префрла на гранката мастер
+$ git merge bug3 -  Спојување со стратегијата "Fast Forward"
+$ git push origin master - ги прикачуваме сите промени кои ги имаме направено
+$ git push origin bug1 - ги прикачуваме сите промени кои ги имаме направено
+$ git push origin bug2 - ги прикачуваме сите промени кои ги имаме направено
+$ git push --force origin bug3 - ги прикачуваме сите промени кои ги имаме направено
+$ git log - ги прикажува сите logs
+$ nano logs.txt - се креира датотека
+$ nano 216124.txt - се креира датотека

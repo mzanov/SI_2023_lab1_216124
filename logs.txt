@@ -1,0 +1,37 @@
+$ git log
+commit 405b4376c9960498987fcdd9081e9c724a60a332 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: martin.zanov232@gmail.com <martin.zanov232@gmail.com>
+Date:   Sun Apr 9 19:20:22 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit ed9976b9defe463a860354e118f8649df3e8ddfe
+Merge: ccfadad 6a801c7
+Author: martin.zanov232@gmail.com <martin.zanov232@gmail.com>
+Date:   Sun Apr 9 19:53:21 2023 +0200
+
+    merge bug2
+
+commit 6a801c78b8b29fdf0315bee11d63e8eb6b7b70b9 (origin/bug2, bug2)
+Author: martin.zanov232@gmail.com <martin.zanov232@gmail.com>
+Date:   Sun Apr 9 19:18:11 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit ccfadad9dce6d0f846e97fc13f7b6771da34b94d (origin/bug1, bug1)
+Author: martin.zanov232@gmail.com <martin.zanov232@gmail.com>
+Date:   Sun Apr 9 19:16:49 2023 +0200
+
+    Fix wrong loop for reading
+
+commit f905d47bab04dfc6a4b433c9f1f77297b2b288bb
+Author: martin.zanov232@gmail.com <martin.zanov232@gmail.com>
+Date:   Sun Apr 9 19:10:48 2023 +0200
+
+    Add java class
+
+commit 9ca81fea09047de14786edf1e36421a335d2e374
+Author: martin.zanov232@gmail.com <martin.zanov232@gmail.com>
+Date:   Sun Apr 9 19:09:15 2023 +0200
+
+    Initial commit
